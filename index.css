@@ -100,3 +100,44 @@ body{
     color: white;
     border: none;
 }
+
+
+@media screen and (max-width: 600px) {
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  #sub-container-1{
+    border-top: #ffffff 4px solid;
+    border-left: none;
+    width: 85%;
+    height: auto;
+    h1{
+      font-size: 30px;
+    }
+  }
+
+  #sub-container-2{
+    width: 85%;
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      input{
+        width: 80%;
+        height: 35px;
+      }
+
+      button{
+        width: 80%;
+        height: 35px;
+      }
+    }
+  }
+}
